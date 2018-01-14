@@ -6,8 +6,7 @@ import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-map
 
 const { InfoBox } = require("react-google-maps/lib/components/addons/InfoBox");
 const { MarkerWithLabel } = require("react-google-maps/lib/components/addons/MarkerWithLabel");
-// const google = window.google; 
-const google = window.google;
+const google = window.google; 
 
 class MyMapComponent extends Component{
 
